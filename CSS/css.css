@@ -1,0 +1,469 @@
+/*Start Main CSS*/
+body
+{
+  margin:0;
+  padding:0;
+}
+.container
+{
+  width: 1170px;
+  margin:auto;
+}
+/*End Main CSS*/
+
+/*first Section*/
+.navbar
+{
+  position: relative;
+  height: 190px;
+}
+    /*Start tsearch section*/
+.navbar .search
+{
+  width: 207px;
+  float: right;
+  height: 29px;
+  margin-right: 70px;
+  margin-top: 35px;
+  margin-left: 0px;
+  position: relative;
+  border: 1px solid #eee;
+  background-color: #eee;
+  border-radius: 20px;
+}
+.navbar .search img
+{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 20px;
+  border: none;
+  padding: 5px;
+  margin-left: -3px;
+}
+.navbar .search input
+{
+  position: absolute;
+  border-radius: 20px;
+  margin-top: 2px;
+  border: none;
+  margin-left: 25px;
+  padding: 5px;
+  background: #eee;
+}
+    /*End search section*/
+      /*Start navbar section*/
+.navbar .list
+{
+  margin-right: 100px;
+  float: right;
+}
+.navbar .list li
+{
+  list-style: none;
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.navbar .list li:hover
+{
+  background-color:#000;
+  color:#fff;
+}
+
+      /*End navbar section*/
+        /*Start Paragraph section*/
+.navbar .navps
+{
+  margin-top: -4px;
+  position: absolute;
+  margin-left: 60px;
+}
+.navbar .navps .navspan
+{
+  margin:16px 0;
+  font-size: 110px;
+  font-family: Magneto;
+  color: rgba(255,0,0,1);
+  font-weight: bold;
+}
+.navbar .navps .navp1
+{
+  font-size: 50px;
+  margin-top: -40px;
+  margin-bottom: 0px;
+  color: #ff0000;
+  font-family: fantasy;
+  text-transform: uppercase;
+}
+.navbar .navps .navp2
+{
+  margin-top:6px;
+  text-transform: uppercase;
+}
+.navbar .navps .navp3
+{
+  margin-top: -18px;
+  color: #cbcbcb;
+}
+        /*End Paragraph section*/
+/*end first Section*/
+
+/*Start second section*/
+.second
+{
+  height: 500px;
+  margin-top: -124px;
+  width: 100%;
+}
+/*Start Image Section*/
+.second .image
+{
+  margin-top: 50px;
+  position: absolute;
+  z-index: 1;/*Make the div over other divs*/
+}
+.second .image .Computer
+{
+  margin-left: 680px;
+  margin-top: -15px;
+}
+.second .image .keyboord
+{
+  margin-top: -170px;
+  width: 330px;
+  margin-left: 790px;
+}
+/*End Image Section*/
+
+.second .clip
+{
+  position: relative;
+  -webkit-clip-path: polygon(0 55%, 100% 0, 100% 100%, 0% 100%);
+  background-color:#df432d;
+  height: 450px;
+}
+/*Start Paragraph Section*/
+.second .clip .secp
+{
+  margin-top: 300px;
+  position: absolute;
+  margin-left: 70px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.second .clip .secp .p1
+{
+  font-size: 80px;
+  margin: 0;
+  margin-top: -77px;
+  font-weight: 600;
+  color:#ffffff;
+  direction:rtl;
+}
+.second .clip .secp .p2
+{
+  font-size: 80px;
+  margin: 0;
+  margin-top: -20px;
+}
+/*End Paragraph Section*/
+.second .inclip
+{
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 50%, 0 11%);
+  background-color:#f54b32;
+  height: 500px;
+}
+/*Start Paragraph section IN inclip */
+.second .inclip .secp1
+{
+  position:absolute;
+  margin-left: 275px;
+  color:#fff;
+  direction: rtl;
+  margin-top: 40px;
+  text-transform:uppercase;
+}
+/*end Paragraph section IN inclip */
+
+/*Start UL Section*/
+.second .radio
+{
+  position: absolute;
+  margin-top: -444px;
+  z-index: 2;
+}
+.second .radio ul
+{
+  position: relative;
+  list-style: none;
+  margin-left: 1190px;
+  width: 50px;
+}
+.second .radio li
+{
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  padding: 5px;
+  color: #0f0f;
+  background-color: #0f0f0f;
+  margin-left: 5px;
+}
+.second .radio li:hover
+{
+  opacity: 1;
+  background-color: #ffffff;
+}
+.second .radio .li_active
+{
+  opacity: 1;
+  background-color: #fff;
+}
+/*End UL Section*/
+/*End second section*/
+
+/*Start collection section*/
+.collection
+{
+  overflow: hidden;
+  height: 590px;
+  margin-top: 90px;
+  background-image: linear-gradient(to bottom,#fff,#e7e7e7);
+}
+.collection h2
+{
+  text-transform: capitalize;
+  font-size: 35px;
+}
+.collection .all img
+{
+  width:200px;
+  height: 200px;
+}
+.collection .coll1,.coll2,.coll3
+{
+  width: 33.33333%;
+  float: left;
+}
+.collection .coll1 p,.coll2 p,.coll3 p
+{
+  width:90%;
+}
+.collection .coll1 button,.coll2 button,.coll3 button
+{
+  color: rgb(0, 0, 0);
+  background-color:#fff;
+  padding: 10px;
+  border-radius: 40px;
+  font-size: 15px;
+  font-style: italic;
+}
+.collection .coll1 button:hover,.coll2 button:hover,.coll3 button:hover
+{
+  background-color: #222;
+  color: #eee;
+}
+/*End collection section*/
+
+/*Start project Secction*/
+.project
+{
+  /*-webkit-clip-path: polygon(6% 0, 20% 0, 33% 10%, 100% 10%,
+     100% 100%, 50% 100%, 22% 100%, 0 100%, 0 10%, 6% 10%);*/
+  height: 570px;
+  background-color:#ffffff;
+  position: relative;
+  background-image: linear-gradient(to right,#fff,#eee,#eee);
+  /*margin-top: -40px;*/
+}
+/*Start div out*/
+.project .outmaindiv
+{
+  /*-webkit-clip-path: polygon(100% 50%, 0 50%, 0 0, 65% 0);*/
+  -webkit-clip-path: polygon(100% 25%, 0 25%, 0 0, 90% 0);
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  width: 24%;
+  position: absolute;
+  border-radius:21px;
+  margin-top: -42px;
+  margin-left: 10px;
+}
+/*Start Head out*/
+.project .hout/*h = Head*/
+{
+  margin: -33px 0 0 24px;
+  font-size: 30px;
+  position: absolute;
+}
+/*END Head out*/
+/*End div out*/
+.project .containerphoto
+{
+  width: 100%;
+  height: 100%;
+}
+/*NOTE: LT */
+.project .containerphoto .lt
+{
+  margin-top: 50px;
+  float: left;
+  width: 50%;
+}
+.project .containerphoto .lt button
+{
+  padding:10px 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.project .containerphoto .lt button:hover
+{
+  background-color: #222;
+  color: #eee;
+  border-radius: 20px;
+}
+.project .lt .imglt
+{
+  width: 40%;
+  height: 100%;
+  float: left;
+}
+.project .lt .imglt img
+{
+  width: 170px;
+  height: 200px;
+  background-color: white;
+  padding:13px;
+  box-shadow: -5px 5px 1.4em rgba(228, 228, 228, 1) ;
+}
+.project .lt .plt
+{
+  width: 50%;
+  height: 100px;
+  margin-left: 30px;
+  float: left;
+}
+.project .lt .plt h2
+{
+  color: red;
+}
+/*NOTE: END LT */
+/*End project Secction*/
+
+/*Start footer Section*/
+.footer
+{
+  height: 440px;
+  position: relative;
+  /*background-color: #f00;*/
+}
+.footer .pfooter
+{
+  color:#0ff;
+  position: relative;
+  z-index: 1;
+  width: 35%;
+  float: left;
+  margin-top: 60px;
+}
+.footer .pfooter .hinfofooter/*head information footer*/
+{
+  margin-bottom: 50px;
+  color: #fff;
+}
+.footer .pfooter .pinfofooter
+{
+  color: #838383;
+  width: 87%;
+  line-height: 29px;
+}
+.footer .pfooter span
+{
+  color: white;
+}
+
+/*start follow footer*/
+.footer .followpfooter
+{
+  color:#0ff;
+  position: relative;
+  z-index: 1;
+  width: 35%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.footer .followpfooter .imgfooter
+{
+  height: 60px;
+}
+.footer .followpfooter h2
+{
+  color: #fff;
+}
+.footer .followpfooter p
+{
+  color: #838383;
+}
+.footer .followpfooter .imgfooter img
+{
+  float: left;
+  width: 10%;
+}
+.footer .followpfooter .imgfooter p
+{
+  width: 80%;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.footer .followpfooter .imgfooter a
+{
+  text-decoration: none;
+  color: #d0d0d0;
+}
+.footer .followpfooter .imgfooter a:hover
+{
+  text-decoration: overline;
+  color:#fff;
+}
+/*End follow footer*/
+.footer .ppfooter
+{
+  color:#d5d5d5;
+  position: relative;
+  z-index: 1;
+  width: 30%;
+  text-align: end;
+  float: left;
+  margin-left: 10px;
+  margin-top: 60px;
+}
+.footer .ppfooter .finish
+{
+  color: #fff;
+  margin-left: 20px;
+}
+/* NOTE: Background for footer */
+.footer .lfooter
+{
+  -webkit-clip-path: polygon(0 0, 65% 0%, 35% 100%, 0% 100%);
+  background-color: #222222;
+  height: 440px;
+  position: relative;
+}
+.footer .rfooter
+{
+  -webkit-clip-path: polygon(100% 100%, 100% -117%, 35% 100%);
+  background-color: #aaa;
+  height: 440px;
+  margin-top: -440px;
+  position: relative;
+}
+/*End background for footer*/
+
+/*End footer Section*/
